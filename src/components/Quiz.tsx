@@ -8,7 +8,6 @@ export interface QuizProps {
 
 class QuizState {
     currentAnswer: string;
-    correctness: number;
 }
 
 export class Quiz extends React.Component<QuizProps, QuizState> {
